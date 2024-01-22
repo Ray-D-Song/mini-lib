@@ -1,0 +1,25 @@
+{
+  "name": "mini-lib",
+  "version": "0.1.0",
+  "description": "simplified implementation of some well-known projects",
+  "type": "module",
+  "scripts": {
+    "test:unit": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "node",
+    "vite",
+    "typescript"
+  ],
+  "author": "Ray-D-Song",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.5",
+    "msw": "^2.1.3",
+    "vite": "^5.0.12",
+    "vitest": "^1.2.1",
+    "vue-demi": "^0.14.6"
+  }
+}
